@@ -1,0 +1,7 @@
+T:C:I:title:!=New Title;
+T:C:P:body:!= <div class="smallTag colorYellow">Welcome to Page C. No green and blue</div>;
+I:A:D:pageIndex:class!=N/A;
+I:A:I:pageC:class!=selectOption;
+C:C:D:colorGreen:!=N/A;
+C:C:D:colorBlue:!=N/A;
+T:C:N:customTag:!=newCustomTag;

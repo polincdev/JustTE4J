@@ -1,0 +1,4 @@
+T:C:I:title:!=New Title;
+T:C:P:body:!= <div class="smallTag colorYellow">Welcome to Page A</div>;
+I:A:D:pageIndex:class!=N/A;
+I:A:I:pageA:class!=selectOption;

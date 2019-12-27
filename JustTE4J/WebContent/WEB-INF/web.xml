@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>JustTE4JOpenSource</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>StaticJustTE4JServlet</display-name>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <servlet-class>org.justte4j.servlet.StaticJustTE4JServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/StaticJustTE4JServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/justTE4JTest.html</url-pattern>
+  </servlet-mapping>
+  
+  <!-- PARAMS START -->
+  <context-param>
+  	<param-name>DATA_FILE_EXTENTION</param-name>
+  	<param-value>.ted</param-value>
+  </context-param>
+   <context-param>
+  	<param-name>TE4J_FILE_FOLDER</param-name>
+  	<param-value>/template</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>DATA_FILE_FOLDER</param-name>
+  	<param-value>/data</param-value>
+  </context-param>
+ <context-param>
+  	<param-name>FORM_FILE_FOLDER</param-name>
+  	<param-value>/form</param-value>
+ </context-param>
+ <context-param>
+  	<param-name>FORM_FILE_NAME</param-name>
+  	<param-value>/templateTE4J.html</param-value>
+ </context-param>
+ <!-- PARAMS END -->
+ 
+   <!-- TEMPLATED PAGES-->
+  <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/index.html</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/pageA.html</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/pageB.html</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/pageC.html</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>StaticJustTE4JServlet</servlet-name>
+    <url-pattern>/pageD.html</url-pattern>
+  </servlet-mapping>
+   <!-- TEMPLATEDEND-->
+</web-app>

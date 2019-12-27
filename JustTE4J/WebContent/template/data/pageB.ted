@@ -1,0 +1,7 @@
+T:C:I:title:!=New Title;
+T:C:P:body:!= <div class="smallTag colorYellow">Welcome to Page B</div>;
+I:A:D:pageIndex:class!=N/A;
+I:A:I:pageB:class!=selectOption;
+T:C:A:span:!=<div>New data for span tag on Page B.</div>;
+I:A:P:customAttrSpan:data-custom!=newcustom;
+I:A:N:customAttrSpan:data-custom!=data-custom-new;

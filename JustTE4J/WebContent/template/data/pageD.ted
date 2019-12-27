@@ -1,0 +1,19 @@
+T:C:I:title:!=New Title;
+T:C:P:body:!= <div class="smallTag colorYellow">Welcome to Page D. No green and blue and yellow. Extra menu</div>;
+I:A:D:pageIndex:class!=N/A;
+I:A:I:pageD:class!=selectOption;
+C:C:D:colorGreen:!=N/A;
+C:C:D:colorBlue:!=N/A;
+C:C:D:colorYellow:!=N/A;
+I:C:L:menuId:!=<!-- MENU START-->
+<fieldset id="extraMenuId">
+     <legend> SUB-MENU</legend>
+	 	  <ul class="menuTag">
+		    <li id="dummyIndex" class="selectOption"><a href="index.html">INDEX</a></li>
+	        <li id="dummyA"><a href="">DUMMY A</a></li>
+		    <li id="dummyB"><a href="">DUMMY B</a></li>
+		    <li id="dummyC"><a href="">DUMMY C</a></li>
+		    <li id="dummyD"><a href="">DUMMY D</a></li>
+		  </ul>
+ </fieldset><!-- MENU END-->;
+ 

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>JustTE4J</title>
+</head>
+<style>
+
+body
+{
+width:auto;
+}
+
+
+.colorGreen
+{
+background-color:#00CC66;
+}
+.colorBlue
+{
+background-color: #0066FF;
+}
+.colorYellow
+{
+background-color: #FFFF66  ;
+}
+.colorRef
+{
+background-color: #ff0000  ;
+}
+
+
+.borderedTag
+{
+border:solid #ff0000 2px;
+}
+
+.bigTag
+{
+height:200px;
+width: inherit;
+}
+.smallTag
+{
+height:100px;
+width: inherit;
+}
+
+.selectOption
+{
+font-weight:bold;
+}
+
+.menuTag li
+{
+ 
+    list-style:none;
+    display:inline-block;
+	width:18%;
+	
+     
+
+}
+
+.menuTag
+{
+width: 100%;
+ margin:0px auto;
+  text-align: justify;
+} 
+
+</style>
+
+<body>
+
+<!-- MENU START-->
+<fieldset id="menuId">
+     <legend> MENU</legend>
+	 	  <ul class="menuTag">
+		    <li id="pageIndex" class="selectOption"><a href="index.html">INDEX</a></li>
+	        <li id="pageA"><a href="pageA.html">PAGE A</a></li>
+		    <li id="pageB"><a href="pageB.html">PAGE B</a></li>
+		    <li id="pageC"><a href="pageC.html">PAGE C</a></li>
+		    <li id="pageD"><a href="pageD.html">PAGE D</a></li>
+		  </ul>
+ </fieldset>
+<!-- MENU END-->
+
+
+<!-- GREEN DIVISION START-->
+<fieldset>
+     <legend> GREEN DIVISION. [TAG:div; CLASS:bigTag,borderedTag,colorGreen; ID:greenDiv]</legend>
+		<div class="bigTag borderedTag colorGreen" id="greenDiv" > Content of Green Division</div>
+</fieldset>
+<!-- GREEN DIVISION END-->
+
+<!-- BLUE DIVISION START-->
+<fieldset>
+     <legend> BLUE DIVISION. [TAG:div; CLASS:bigTag,borderedTag,colorBlue; ID:blueDiv]</legend>
+		<div class="bigTag borderedTag colorBlue" id="blueDiv" > Content of Blue Division</div>
+</fieldset>
+<!-- BLUE DIVISION END-->
+
+<!-- YELLOW DIVISION START-->
+<fieldset>
+     <legend> YELLOW DIVISION. [TAG:div; CLASS:smallTag,colorYellow; ID:yellowDiv]</legend>
+		<div class="smallTag colorYellow" id="yellowDiv" > Content of Yellow Division</div>
+</fieldset>
+<!-- YELLOW DIVISION END-->
+
+<!-- CUSTOM ATTRIBUTE DIVISION START-->
+<fieldset>
+     <legend> CUSTOM-ATTRIBUTE DIVISION. [TAG:span; CLASS:smallTag,colorYellow; ID:customAttrSpan; CUSTOM-ATTRIBUTE:data-custom]</legend>
+		<span style="display:block" data-custom="custom" class="smallTag colorYellow" id="customAttrSpan" > Content of Custom attribute Division</span>
+</fieldset>
+<!-- CUSTOM ATTRIBUTE DIVISION END-->
+
+<!-- CUSTOM TAG DIVISION START-->
+<fieldset>
+     <legend> CUSTOM-TAG DIVISION. [TAG:customTag; CLASS:smallTag,colorYellow; ID:customTag; CUSTOM-TAG:customTag]</legend>
+		<customTag style="display:block" data-custom="custom" class="smallTag colorYellow" id="customTag" > Content of Custom tag Division</customTag>
+</fieldset>
+<!-- CUSTOM TAG DIVISION END-->
+
+</body>
+</html>

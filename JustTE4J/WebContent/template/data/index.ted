@@ -1,0 +1,3 @@
+T:C:I:title:!=Index title;
+T:C:P:body:!= <div class="smallTag colorYellow">Welcome to JustTE4J test page</div> ;
+I:C:F:customAttrSpan:!= <div class="smallTag colorRed">Warning on test page</div> ;
