@@ -2,17 +2,17 @@
 High-performance open source tool to generate HTML output without need to interfere with base HTML. It takes fixed text and data as input and integrates these and outputs a text document containing the data.
 
 
-#GUI Manager for lightweight template engine in Java
+# GUI Manager for lightweight template engine in Java
 
 It provides an easy way to generate and manipulate templates for JustTE4J Java template engine. JustTE4J is a high-performance open source tool to generate HTML output without need to interfere with base HTML. It takes fixed text and data as input and integrates these and outputs a text document containing the data. It is written in pure Java and designed for custom Java web solutions and development.
 
-##Start:
+## Start:
 
 1) Download JustTE4JGUI.jar
 
 2) run command "java -cp justTE4JGUI.jar org.justte4j.gui.JustTE4JGUI" or run command "java -jar justTE4JGUI.jar"
 
-####Usage:
+#### Usage:
 
 1) For existing data file: drag and drop data file onto main panel or choose File->Open option.
 
